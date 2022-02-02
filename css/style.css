@@ -183,6 +183,14 @@ body {
   font-weight: 600;
   color: #737373;
   line-height: calc(24/14*100%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.menu__link:hover {
+  color: #000000;
+  text-shadow: 1px 1px 4px rgba(5, 5, 5, 0.808);
 }
 
 .page {
@@ -227,8 +235,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .main-block__button {
